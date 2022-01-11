@@ -4,6 +4,7 @@
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
+    android:background="#2196F3"
     android:orientation="vertical"
     android:paddingLeft="16dp"
     android:paddingRight="16dp"
@@ -17,7 +18,7 @@
         android:layout_marginTop="15dp"
         android:gravity="center"
         android:text="Ghibli Movie Search"
-        android:textColor="@color/teal_200"
+        android:textColor="@color/black"
         android:textSize="24sp"
         android:textStyle="bold" />
 
@@ -51,5 +52,6 @@
         android:layout_width="match_parent"
         android:layout_height="match_parent"
         android:layout_weight="1"
+        android:background="#00FFFFFF"
         android:padding="15dp" />
 </LinearLayout>

@@ -17,7 +17,7 @@ class MovieAdapter(private val qqq : List<Movies>) : RecyclerView.Adapter<MovieA
 
         fun bind(movie: Movies){
             title.setText(movie.title)
-            tags.setText(movie.id)
+            //tags.setText(movie.id)
             description.setText(movie.description)
 
             Picasso.get().load(movie.image).into(cover);
